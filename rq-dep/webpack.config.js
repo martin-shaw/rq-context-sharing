@@ -43,5 +43,6 @@ module.exports = {
                 root: "ReactDOM",
             },
         },
+        { "@tanstack/react-query": "@tanstack/react-query" },
     ],
 };

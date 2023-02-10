@@ -11,7 +11,7 @@ const queryClient = new QueryClient({
 });
 
 export const App = () => (
-    <QueryClientProvider client={queryClient} contextSharing={true}>
+    <QueryClientProvider client={queryClient}>
         <>
             <h1>Hello!</h1>
             <Counter />

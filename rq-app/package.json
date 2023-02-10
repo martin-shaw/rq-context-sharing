@@ -25,6 +25,6 @@
     "@tanstack/react-query": "^4.24.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rq-dep": "../rq-dep/rq-dep-1.0.0.tgz"
+    "rq-dep": "../rq-dep/rq-dep-1.2.0.tgz"
   }
 }
