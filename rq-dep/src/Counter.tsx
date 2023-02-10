@@ -4,7 +4,5 @@ import { useCounter } from "./use-counter";
 export const Counter = () => {
     const { isLoading, isSuccess, data } = useCounter();
 
-    return (
-        <div>{ isSuccess && data}</div>
-    )
-}
+    return <div>{isSuccess && data}</div>;
+};
